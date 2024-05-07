@@ -34,10 +34,6 @@ class ApiViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         let filePath = Bundle.main.path(forResource: "ApiKey", ofType: "plist")
         let plist = NSDictionary(contentsOfFile: filePath!)!
         apiKey = plist["key"] as! String
-        
-        // shopArray読み込み
-        // updateShopArray()
-        //statusLabel.text = ""
 
         // Refreshコントロールの設定
         let refreshControl = UIRefreshControl()
