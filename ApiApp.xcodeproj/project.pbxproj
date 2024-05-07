@@ -14,6 +14,12 @@
 		338795C22BD9F70C007EB7AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 338795C12BD9F70C007EB7AC /* Base */; };
 		338795C42BD9F70E007EB7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338795C32BD9F70E007EB7AC /* Assets.xcassets */; };
 		338795C72BD9F70E007EB7AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 338795C62BD9F70E007EB7AC /* Base */; };
+		338795CF2BD9FEB9007EB7AC /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338795CE2BD9FEB9007EB7AC /* ApiViewController.swift */; };
+		33A99E4D2BE0C4F600DD6A0A /* FavoriteShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A99E4C2BE0C4F600DD6A0A /* FavoriteShop.swift */; };
+		33F6C4292BDB4FCD004006C5 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F6C4282BDB4FCD004006C5 /* FavoriteViewController.swift */; };
+		33F6C42B2BDB8892004006C5 /* ApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33F6C42A2BDB8892004006C5 /* ApiKey.plist */; };
+		33F6C42D2BDB8D6F004006C5 /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F6C42C2BDB8D6F004006C5 /* ShopCell.swift */; };
+		33F6C42F2BDB97AA004006C5 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F6C42E2BDB97AA004006C5 /* ApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		338795C32BD9F70E007EB7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338795C62BD9F70E007EB7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338795C82BD9F70E007EB7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338795CE2BD9FEB9007EB7AC /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
+		33A99E4C2BE0C4F600DD6A0A /* FavoriteShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteShop.swift; sourceTree = "<group>"; };
+		33F6C4282BDB4FCD004006C5 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		33F6C42A2BDB8892004006C5 /* ApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKey.plist; sourceTree = "<group>"; };
+		33F6C42C2BDB8D6F004006C5 /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		33F6C42E2BDB97AA004006C5 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		3EACAE55AAB12E4EF2584617 /* Pods_ApiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		591975ABE20C63036CD6FC0A /* Pods-ApiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiApp.debug.xcconfig"; path = "Target Support Files/Pods-ApiApp/Pods-ApiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BB9E83056E29FE1AF20E038D /* Pods-ApiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiApp.release.xcconfig"; path = "Target Support Files/Pods-ApiApp/Pods-ApiApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,10 +78,16 @@
 				338795BA2BD9F70C007EB7AC /* AppDelegate.swift */,
 				338795BC2BD9F70C007EB7AC /* SceneDelegate.swift */,
 				338795BE2BD9F70C007EB7AC /* ViewController.swift */,
+				33F6C42C2BDB8D6F004006C5 /* ShopCell.swift */,
+				33F6C42E2BDB97AA004006C5 /* ApiResponse.swift */,
+				33F6C4282BDB4FCD004006C5 /* FavoriteViewController.swift */,
+				338795CE2BD9FEB9007EB7AC /* ApiViewController.swift */,
+				33A99E4C2BE0C4F600DD6A0A /* FavoriteShop.swift */,
 				338795C02BD9F70C007EB7AC /* Main.storyboard */,
 				338795C32BD9F70E007EB7AC /* Assets.xcassets */,
 				338795C52BD9F70E007EB7AC /* LaunchScreen.storyboard */,
 				338795C82BD9F70E007EB7AC /* Info.plist */,
+				33F6C42A2BDB8892004006C5 /* ApiKey.plist */,
 			);
 			path = ApiApp;
 			sourceTree = "<group>";
@@ -152,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				338795C42BD9F70E007EB7AC /* Assets.xcassets in Resources */,
+				33F6C42B2BDB8892004006C5 /* ApiKey.plist in Resources */,
 				338795C72BD9F70E007EB7AC /* Base in Resources */,
 				338795C22BD9F70C007EB7AC /* Base in Resources */,
 			);
@@ -207,8 +226,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				338795BF2BD9F70C007EB7AC /* ViewController.swift in Sources */,
+				33F6C42D2BDB8D6F004006C5 /* ShopCell.swift in Sources */,
 				338795BB2BD9F70C007EB7AC /* AppDelegate.swift in Sources */,
+				33F6C42F2BDB97AA004006C5 /* ApiResponse.swift in Sources */,
 				338795BD2BD9F70C007EB7AC /* SceneDelegate.swift in Sources */,
+				338795CF2BD9FEB9007EB7AC /* ApiViewController.swift in Sources */,
+				33F6C4292BDB4FCD004006C5 /* FavoriteViewController.swift in Sources */,
+				33A99E4D2BE0C4F600DD6A0A /* FavoriteShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
